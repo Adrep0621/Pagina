@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="navbar-container">
+      <!-- Logo -->
+      <div class="logo">
+        <a href="#">Tienda</a>
+      </div>
+
+      <!-- Menu Links -->
+      <ul class="nav-links">
+        <li><a href="#">Mice</a></li>
+        <li><a href="#">Keyboards</a></li>
+        <li><a href="#">Accessories</a></li>
+        <li><a href="#">Pad</a></li>
+        <li><a href="#">Gears</a></li>
+      </ul>
+
+      <!-- Search Bar (Only visible on mobile) -->
+      <div class="search-bar">
+        <input type="text" placeholder="Search...">
+      </div>
+
+      <!-- Icons (Cart and User) -->
+      <div class="navbar-icons">
+        <a href="#" class="icon cart">
+          <img src="shopping-cart-icon.png" alt="Cart">
+          <span class="badge">3</span>
+        </a>
+        <a href="login.html" class="icon user">
+          <img src="user.png" alt="User">
+        </a>
+        <div class="dropdown-menu">
+          <a href="#">Login</a>
+          <a href="#">Register</a>
+        </div>
+      </div>
+
+      <!-- Mobile Menu Toggle -->
+      <div class="menu-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <script src="Scrip.js"></script>
+</body>
+</html>
